@@ -71,6 +71,12 @@ body{
         width: 100% !important;
     }
  }
+ @media all and  (min-width: 1900px) {
+    #section3{
+        margin-top: 20vh !important;
+        margin-bottom:84vh !important;
+    }
+ }
 @media all and (min-width: 1024px) and (max-width: 1280px) { }
  
 @media all and (min-width: 768px) and (max-width: 1024px) { }
@@ -85,68 +91,113 @@ body{
     <div id="preloader"></div>      
     <div id="simpleScroll" ></div>
     <div id="sideScroll"></div>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="    background: #fae09a;">
-        <a class="navbar-brand" href="/">
-            <img src="./lem_logo.png" style="width: 125px;;"/>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Buy Now</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Lemuria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Game</a>
-              </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <div class="form-inline my-2 my-lg-0">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a style="    color: #807b7b;" href="https://twitter.com/FinanceLemur" target="_blank" class="twitter-follow-button nav-link" data-show-count="false"> <i class="fab fa-twitter"></i> <span class="handle"></span></a>
-                </li>
-                <li class="nav-item active">
-                    
-                    <a style="    color: #807b7b;" href="https://t.me/lemurfinance" target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i class="fab fa-telegram"></i> <span class="handle"></span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a style="    color: #807b7b;" href="https://lemurfinance.medium.com/" target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i class="fab fa-medium"></i> <span class="handle"></span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a style="    color: #807b7b;    " href="https://www.reddit.com/r/LemurFinance/" target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i class="fab fa-reddit-alien"></i> <span class="handle"></span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a style="     color: #807b7b;   " href="https://www.reddit.com/r/LemurFinance/" target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i class="fab fa-facebook"></i> <span class="handle"></span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a style="     color: #807b7b;   " href="https://www.reddit.com/r/LemurFinance/" target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
-                    <img style="width: 18px;    opacity: 0.8;
-                    filter: grayscale(1);" src="./img/pancake.png"/></a>
-                  </li>
-                </ul>
-          </div>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light " style="    background:white;">
+		<a class="navbar-brand" href="/">
+			<img src="./lem_logo.png" style="    width: 105px;
+			padding: 0.5em;" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#howtobuy">How to Buy</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " title="Lemuria World" href="/lemuria">Lemuria</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/story">Story</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " title="Lem invaders" href="https://invaders.lemur.finance">Game</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://lemurfinance.medium.com/lemuria-9ec735e21abd" target="_blank">Tokenomics</a>
+					
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#roadmapl">Road Map</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						More
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item"
+							href="https://bscscan.com/token/0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb/"
+							target="_blank">Binance Chain</a>
+						<a class="dropdown-item"
+							href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+							target="_blank">LP Burn</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item"
+							href="https://bscscan.com/tx/0xa07f2f719642b155649856ad878b57f894e3680d758b7b2f0ee60364d3d19146"
+							target="_blank">Proof of Ownership</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link buyN text-center" href="#">Buy Now</a>
+				</li>
+			</ul>
+			<div class="form-inline my-2 my-lg-0">
+				<ul id="socialz" class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a style="    color: #807b7b;" href="https://twitter.com/FinanceLemur" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"> <i
+								class="fab fa-twitter"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+
+						<a style="    color: #807b7b;" href="https://t.me/lemurfinance" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-telegram"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="    color: #807b7b;" href="https://lemurfinance.medium.com/" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-medium"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="    color: #807b7b;    " href="https://www.reddit.com/r/LemurFinance/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-reddit-alien"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   " href="https://www.facebook.com/Lemur.Finance/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-facebook"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   " href="https://www.tiktok.com/@lemurfinanceofficial/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
+								<i class="fab fa-tiktok"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   " href="https://discord.gg/csyxqy4AC7/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
+								<i class="fab fa-discord"></i> <span class="handle"></span></a>
+					</li>
+					
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   "
+							href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
+							<img style="width: 18px;    opacity: 0.8;
+					filter: grayscale(1);" src="./pancake.png" /></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
     <div id="wrapper">
         <section id="section1" class="section section1 s1-anim">
            <div class="container">
@@ -183,8 +234,8 @@ body{
                     <!--- Report Pop -->
                     <div id="management-report" class="sec1-slider">
                        <h2 class="title mManageRepTitle" data-scroll-reveal="enter from bottom">Lemurians</h2> 
-                        <div class="popx">
-                            <div id="popSlide" class="popYellow popSlide">
+                        <div class="">
+                            <div id="" class="">
                                <div>
                                   <div class="para">
                                       <p data-scroll-reveal="enter from bottom">
@@ -194,9 +245,10 @@ body{
                                       </p>
                                       
                                   </div>
+                                  <img src="./img/village-05.png"/>
                                 </div>
                                 
-                               
+                                
                                
                             </div>
                         </div>
@@ -223,26 +275,26 @@ body{
                 </div>
                 <div id="kTl1" class="para fz18  max--285 pos-r _s7_paraSet" data-scroll-reveal="enter from bottom" data-scroll-reveal-id="45" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
                     
-                    <h2 class="title max-460" data-scroll-reveal="enter from bottom">Kingtoshi Lemuroto
+                    <h2 style="    color: #3c3d3b !important;" class="title max-460" data-scroll-reveal="enter from bottom">Kingtoshi Lemuroto
                     </h2>
-                    <p data-scroll-reveal="enter from bottom">
+                    <p style="    color: #3c3d3b !important;" data-scroll-reveal="enter from bottom">
                         Rumoured to be a descendant of Bitcoin developer Satoshi Nakamoto, our own Kingtoshi Lemuroto created the LEM protocol and renounced ownership of the contract (check here).
                         
 
                     </p>
                     
                     <div class=" readSlide1">
-                        <p data-scroll-reveal="enter from bottom">
+                        <p style="    color: #3c3d3b !important;" data-scroll-reveal="enter from bottom">
                             This means nobody can interact with the contract anymore and cheat Lemurians, no more LEM can be minted and no rug-pull is possible.
                             
                             
 
                         </p>
-                        <p data-scroll-reveal="enter from bottom">
+                        <p style="    color: #3c3d3b !important;" data-scroll-reveal="enter from bottom">
                             Like his ancestor, he decided to remain anonymous and is hiding somewhere in Lemuria’s mountain. 
 
                         </p>
-                        <p data-scroll-reveal="enter from bottom">
+                        <p style="    color: #3c3d3b !important;" data-scroll-reveal="enter from bottom">
                             
                             Some says he is the Lemurian ninja and lives in a secret den where he perfects the art of Safu.
                         </p>
@@ -259,10 +311,10 @@ body{
                     
                 </div>
                 <div id="content" class="max-container left-8 pos-r">
-                    <h2 class="title title_max370" data-scroll-reveal="enter from bottom">The LEM Whale</h2>
+                    <h2 class="title title_max370" style="color: #355273;" data-scroll-reveal="enter from bottom">The LEM Whale</h2>
                     <div class="para-pad flexx align-end paraSetter _max800ParaFull">
                     <div class="para max-327 maxEl">
-                        <p data-scroll-reveal="enter from bottom">
+                        <p data-scroll-reveal="enter from bottom" style="color: #355273;">
                             Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a" target="_blank">  here</a>).
                             
 
@@ -270,13 +322,13 @@ body{
                         </p>
                         
                         <div class=" readSlide1">
-                            <p data-scroll-reveal="enter from bottom">
+                            <p data-scroll-reveal="enter from bottom" style="color: #355273;">
                                 This will forever be the biggest whale in LEM ecosystem and a whale that never dumps! 
                                 
                                 
 
                             </p>
-                            <p data-scroll-reveal="enter from bottom">
+                            <p data-scroll-reveal="enter from bottom" style="color: #355273;">
                                 As the 2% is distributed to holders proportionate to their holdings, the Lem Whale grows exponentially, exerting hyper-deflationary pressure on the LEM economy.
 
                             </p>
@@ -312,16 +364,16 @@ body{
                         <div class="max-327 sec__max20 _blankRemove">&nbsp;</div>
                         <div class="max-327 sec__max20 _blankRemove">&nbsp;</div>
                         <div id="translations" class="para max-327 sec__max327 max-360 ml-40 text-up">
-                            <h2 class="title s4--title" data-scroll-reveal="enter from bottom">The Blue Hole</h2>
+                            <h2 class="title s4--title" data-scroll-reveal="enter from bottom" style="    color: #07393a;">The Blue Hole</h2>
                             <div class="max-nf327">
-                                <p data-scroll-reveal="enter from bottom">
+                                <p data-scroll-reveal="enter from bottom" style="    color: #07393a;">
                                     A good economy needs liquidity that cannot be tempered with. 
                                 </p>
-                                <p data-scroll-reveal="enter from bottom">
+                                <p data-scroll-reveal="enter from bottom" style="    color: #07393a;">
                                     
                                     The 3% tax creates LEM/BNB pool of liquidity that is locked forever.
                                 </p>
-                                <p data-scroll-reveal="enter from bottom">
+                                <p data-scroll-reveal="enter from bottom" style="    color: #07393a;">
                                     
                                    This provides an ever rising price floor, benefiting all Lemurians.
                                 </p>
@@ -349,13 +401,13 @@ body{
                     <!-- <span class="readPopUp event-popup" data-pop="2"><img class="w100 load" data-src="img/s7-img2_1.png"></span> -->
                 </div>
                 <div id="one-day-one-story" class="max-container pos-r _s7topSpace">
-                    <h2 class="title title_max430" data-scroll-reveal="enter from bottom">The Pit & Volcano</h2>
+                    <h2 class="title title_max430" data-scroll-reveal="enter from bottom" style="    color: #fa5902;">The Pit & Volcano</h2>
                     <div class="para-pad bird-para-space mt46 flexx flex-wrap _paraMax767 max--600">
                       <div class="para max-327 fz18 pr--21 help_para" data-scroll-reveal="enter from bottom">
-                           <p>
+                           <p style="    color: #fa5902;">
                             A 2% tax is distributed to all holders proportionate to their holdings.
                            </p>
-                           <p>
+                           <p style="    color: #fa5902;">
                             All new Lemurians or exiting ones are required to offer LEM into the pit, after which the volcano immediately erupts and airdrops the offered coins to all Lemurians!
                            </p>
                        </div>
@@ -399,7 +451,7 @@ body{
             </section>
          </div>  
          <section id="section4" class="section section4 color-4">
-            <img class="s4-bgRight pos-r w100 loadReplace" data-desk="img/s7-img3.png" style="width: 78%;" data-mob="img/s7-img3.png" src="img/s7-img3.png">
+            <img class="s4-bgRight pos-r w100 loadReplace" data-desk="img/lemuriastory-41.png" style="width: 50%;" data-mob="img/lemuriastory-41.png" src="img/lemuriastory-41.png">
             <div class="max-container left-8 s4-text-top">
                 <div class="para-pad flexx align-end _max800ParaFull _flexColumn800">
                     <div class="max-327 sec__max20 _blankRemove">&nbsp;</div>
@@ -432,43 +484,54 @@ body{
         </section>
        
         <div class="container">
-            <footer class="pt-4 my-md-5 pt-md-5 " style="    padding-bottom: 2em;" >
-              <div class="row">
-                <div class="col-12 col-md">
-                  <img class="mb-2" src="./lem_logo.png" alt="" style="width: 95px;">
-                  <small class="d-block mb-3 text-muted">© 2021 Lemur Finance</small>
+            <footer class="pt-4 my-md-5 pt-md-5 " style="    padding-bottom: 2em;">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="./lem_logo.png" alt="" style="width: 95px;">
+                        <small class="d-block mb-3 ">© 2021 Lemur Finance</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 style="font-weight: 800;">Usefull Links</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="" href="#roadmapl">Roadmap</a></li>
+                            <li><a class="" href="javascript:void(0)">Lemuria</a></li>
+                            <li><a class="" href="https://lemurfinance.medium.com/lemuria-9ec735e21abd" target="_blank">Tokenomics</a></li>
+                            <li><a class="" href="#howtobuy">How to Buy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 style="font-weight: 800;">Social</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="" href="https://t.me/lemurfinance">Telegram</a></li>
+                            <li><a class="" href="https://twitter.com/FinanceLemur">Twitter</a></li>
+                            <li><a class="" href="https://lemurfinance.medium.com">Medium</a></li>
+                            <li><a class="" href="https://www.facebook.com/Lemur.Finance">Facebook</a>
+                            </li>
+                            <li><a class="" href="https://www.reddit.com/r/LemurFinance/">Reddit</a></li>
+                            <li><a class="" href="https://www.tiktok.com/@lemurfinanceofficial">TikTok</a></li>
+                            <li><a class="" href="https://discord.gg/csyxqy4AC7">Discord</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 style="font-weight: 800;">Other</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class=""
+                                    href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb">Pancake
+                                    Swap</a></li>
+                            <li><a class=""
+                                    href="https://goswapp-bsc.web.app/0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb">Chart</a>
+                            </li>
+                            <li><a class=""
+                                    href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a">Burn
+                                    Tokens</a></li>
+                            <li><a class=""
+                                    href="https://bscscan.com/token/0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb/">BSC
+                                    Contract</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-6 col-md">
-                  <h5>Usefull Links</h5>
-                  <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Roadmap</a></li>
-                    <li><a class="text-muted" href="#">Lemuria</a></li>
-                    <li><a class="text-muted" href="#">Tokenomiks</a></li>
-                    <li><a class="text-muted" href="#">How to Buy</a></li>                    
-                  </ul>
-                </div>
-                <div class="col-6 col-md">
-                  <h5>Social</h5>
-                  <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Telegram</a></li>
-                    <li><a class="text-muted" href="#">Twitter</a></li>
-                    <li><a class="text-muted" href="#">Medium</a></li>
-                    <li><a class="text-muted" href="#">Facebook</a></li>
-                    <li><a class="text-muted" href="#">Reddit</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-md">
-                  <h5>Other</h5>
-                  <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Buy</a></li>
-                    <li><a class="text-muted" href="#">Chart</a></li>
-                    <li><a class="text-muted" href="#">Burn Tokens</a></li>
-                    <li><a class="text-muted" href="#">BSC Contract</a></li>
-                  </ul>
-                </div>
-              </div>
             </footer>
-          </div>
+        </div>
 
     </div>
     
